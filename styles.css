@@ -1314,3 +1314,10 @@ footer{border-top:1px solid var(--line);padding:56px 0 26px;color:var(--muted);f
 .demo-video__caption{font-size:12.5px;line-height:1.5;color:var(--muted);margin:12px 0 0;padding-left:13px;border-left:2px solid var(--line)}
 .case-backlink{margin:18px 0 0;font-size:14px;font-weight:650}
 .case-backlink a{color:var(--blue);text-decoration:underline;text-underline-offset:3px}
+
+/* --- CV on request (no download on the site) ------------------------- */
+.cta .cv-note{margin-top:4px;font-size:14px;opacity:.85}
+.foot-nav li.cv-note{font-size:12.5px;color:var(--muted)}
+
+/* Every anchor target clears the sticky nav (77px desktop, 67px mobile). */
+[id]{scroll-margin-top:84px}

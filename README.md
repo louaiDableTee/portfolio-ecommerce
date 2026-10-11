@@ -23,21 +23,26 @@ npm run check      # build, then verify links, headings, alt text, meta and JSON
 is not flagged as pending, a page with zero or several `<h1>`, an image without alt text, a
 heading level that skips, a missing title, description or canonical, and invalid JSON-LD.
 
-## Deploy to Vercel
+## Two projects, two sites
 
-The repo is a plain static Vite build, so no adapter is needed.
+The portfolio is split in two. Do not mix them up.
 
-1. Push to GitHub and import the repository at vercel.com.
-2. Vercel detects Vite. Confirm the build command is `npm run build` and the output
-   directory is `dist`.
-3. **Set the `SITE_URL` environment variable** to the final domain, for example
-   `https://louaibouraoui.com`. Canonical tags, Open Graph URLs and `sitemap.xml` are all
-   generated from it. Without it the build falls back to a placeholder domain, which is
-   wrong in production.
-4. Redeploy after setting the variable, then submit `/sitemap.xml` in Search Console.
+| | E-commerce portfolio (this repo) | SEO / marketing portfolio |
+|---|---|---|
+| GitHub repo | `louaiDableTee/portfolio-ecommerce` | `louaiDableTee/portfolio2` |
+| Vercel project | `portfolio-ecommerce` | `portfolio2` |
+| Production URL | https://louai-bouraoui-ecommerce.vercel.app | https://louai-bouraoui-marketing.vercel.app |
 
-`vercel.json` already sets clean URLs, trailing slashes, long cache headers for images and
-video, and two security headers.
+- Pushing to `main` here deploys the live e-commerce site. Work on a branch; Vercel builds a
+  preview for it. Merge only after review.
+- `SITE_URL` is set to `https://louai-bouraoui-ecommerce.vercel.app` in the Vercel project; canonical
+  tags, Open Graph URLs and `sitemap.xml` come from it.
+- The earlier version of this site is kept on branch `ancienne-version-marketing`. Do not delete it.
+- **The CV is deliberately not on the site.** No download link or PDF; the contact block and the
+  footer say "CV envoyé sur demande." / "CV available on request."
+
+`vercel.json` sets clean URLs, trailing slashes, long cache headers for images and video, and
+two security headers.
 
 ## How the site is put together
 

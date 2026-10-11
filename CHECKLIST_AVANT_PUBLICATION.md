@@ -150,10 +150,14 @@ Les numéros de ligne correspondent à la version de ce commit ; si les fichiers
 - [x] Vidéo du parcours de commande (boutique de démonstration) en haut de l’étude de cas, section « Démo vidéo » : `espace-deals-parcours.mp4` (2,3 Mo, 1 min 14, sans son) et son poster ; lien de retour depuis la section 07.
 - [ ] Vérifier la lecture de la vidéo sur la preview Vercel, sur ordinateur et sur téléphone.
 
+## Revue recruteur (branche revue-recruteur)
+
+- [x] CV retiré du site (liens, boutons, PDF) ; mention « CV envoyé sur demande » sous les coordonnées.
+- [x] Libellés des captures : `espacedeals.local` (boutique locale, domaine non détenu).
+- [x] Bouton « Voir la démo vidéo (1 min) » dans le hero de l’accueil.
+
 ## À faire
 
-- [ ] Nouveau CV en français (`public/cv/Mohamed-Louai-Bouraoui-CV-FR.pdf`) : l’actuel présente encore un profil Worku / B2B.
-- [ ] CV en anglais : ajouter le PDF dans `public/cv/`, puis le mettre en premier dans la liste anglaise de `vite.config.ts` (en attendant, les pages anglaises pointent vers le CV français).
 - [ ] Page Politique de confidentialité de la boutique.
 - [ ] Quand la boutique sera en ligne : captures `10-search-console` et `12-catalogue-meta`, les remettre dans la section 07 avec leur texte.
 
