@@ -475,6 +475,39 @@ function initReveal() {
   items.forEach((el) => io.observe(el));
 }
 
+/* ------------------------------------------------------------------ *
+ * Hash links that actually land
+ *
+ * html{scroll-behavior:smooth} makes the browser animate the jump to a
+ * #fragment on load; images, fonts and the custom elements above then
+ * change the layout mid-animation and the jump stops near the top. So once
+ * the page has its size, jump to the target instantly, and once more after
+ * everything has loaded. The scroll-margin-top in CSS keeps the heading
+ * clear of the sticky nav.
+ * ------------------------------------------------------------------ */
+
+function landOnHash(id = decodeURIComponent(location.hash.slice(1))) {
+  if (!id) return;
+  const target = document.getElementById(id);
+  if (!target) return;
+  const root = document.documentElement;
+  const prev = root.style.scrollBehavior;
+  root.style.scrollBehavior = 'auto';
+  target.scrollIntoView({ block: 'start', behavior: 'auto' });
+  root.style.scrollBehavior = prev;
+}
+
+function initHashLanding() {
+  if (location.hash) {
+    requestAnimationFrame(() => landOnHash());
+    if (document.readyState === 'complete') setTimeout(() => landOnHash(), 50);
+    else window.addEventListener('load', () => setTimeout(() => landOnHash(), 50), { once: true });
+    document.fonts?.ready.then(() => landOnHash());
+  }
+  window.addEventListener('hashchange', () => landOnHash());
+}
+
 initLightbox();
 initNav();
 initReveal();
+initHashLanding();

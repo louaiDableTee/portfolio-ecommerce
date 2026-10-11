@@ -1318,3 +1318,6 @@ footer{border-top:1px solid var(--line);padding:56px 0 26px;color:var(--muted);f
 /* --- CV on request (no download on the site) ------------------------- */
 .cta .cv-note{margin-top:4px;font-size:14px;opacity:.85}
 .foot-nav li.cv-note{font-size:12.5px;color:var(--muted)}
+
+/* Every anchor target clears the sticky nav (77px desktop, 67px mobile). */
+[id]{scroll-margin-top:84px}
