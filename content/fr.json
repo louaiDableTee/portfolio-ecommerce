@@ -23,12 +23,12 @@
     "foot-career": "<a href=\"/about/\">Parcours et formation</a>",
     "foot-wash-and-go": "<a href=\"/wash-and-go/\">Design : Wash and Go</a>",
     "foot-frostpeak": "<a href=\"/frostpeak/\">Design : FrostPeak</a>",
-    "foot-cv": "<a href=\"%CV_HREF%\" %CV_DOWNLOAD%>%CV_LABEL_LONG%</a>",
     "foot-h-contact": "Contact",
     "foot-email": "<a href=\"mailto:louaibouraoui0@gmail.com\">louaibouraoui0@gmail.com</a>",
     "foot-phone": "<a href=\"tel:+21622842578\">+216 22 842 578</a>",
     "foot-linkedin": "<a href=\"https://www.linkedin.com/in/mohamed-louai-bouraoui/\" rel=\"me noopener\" target=\"_blank\">LinkedIn</a>",
-    "foot-base": "<span>© 2026 Mohamed Louai Bouraoui. Fait avec Vite, TypeScript et CSS maison.</span>\n    <a href=\"#top\">Haut de page ↑</a>"
+    "foot-base": "<span>© 2026 Mohamed Louai Bouraoui. Fait avec Vite, TypeScript et CSS maison.</span>\n    <a href=\"#top\">Haut de page ↑</a>",
+    "cv-note": "CV envoyé sur demande."
   },
   "index": {
     "meta-title": "Chargé e-commerce junior WooCommerce | Louai Bouraoui",
@@ -106,8 +106,9 @@
     "contact-label": "Contact",
     "contact-h2": "Parlons <span class=\"blue-italics\"><span class=\"nowrap\">e-commerce.</span></span>",
     "contact-p": "Arabe, français et anglais.",
-    "contact-links": "<a class=\"contact-link\" href=\"mailto:louaibouraoui0@gmail.com\">M’écrire</a>\n          <a class=\"contact-link\" href=\"https://www.linkedin.com/in/mohamed-louai-bouraoui/\"\n             target=\"_blank\" rel=\"me noopener\">Échanger sur LinkedIn</a>\n          <a class=\"contact-link\" href=\"%CV_HREF%\" %CV_DOWNLOAD%>%CV_LABEL%</a>\n          <a class=\"contact-link\" href=\"tel:+21622842578\">Appeler : +216 22 842 578</a>",
-    "skill-4-kpi": "Lecture des KPI e-commerce (conversion, panier moyen, abandon) dans GA4 et Google Sheets."
+    "contact-links": "<a class=\"contact-link\" href=\"mailto:louaibouraoui0@gmail.com\">M’écrire</a>\n          <a class=\"contact-link\" href=\"https://www.linkedin.com/in/mohamed-louai-bouraoui/\"\n             target=\"_blank\" rel=\"me noopener\">Échanger sur LinkedIn</a>\n        <a class=\"contact-link\" href=\"tel:+21622842578\">Appeler : +216 22 842 578</a>",
+    "skill-4-kpi": "Lecture des KPI e-commerce (conversion, panier moyen, abandon) dans GA4 et Google Sheets.",
+    "hero-cta-video": "Voir la démo vidéo (1 min)"
   },
   "espace-deals": {
     "meta-title": "Espace Deals : étude de cas e-commerce WooCommerce",
@@ -287,7 +288,7 @@
     "s9-next-3": "<b>Lire les requêtes Search Console</b> pour améliorer les titres et les descriptions des fiches produits.",
     "s9-next-4": "<b>Ajouter des guides</b> à partir des questions repérées dans la sheet de mots-clés.",
     "s9-next-5": "<b>Tester la mise en ligne sur une marketplace</b> d’une partie du catalogue.",
-    "s9-pagenav": "<a class=\"seemore\" href=\"%CV_HREF%\" %CV_DOWNLOAD%>%CV_LABEL_LONG%</a>\n        <a class=\"seemore seemore--ghost\" href=\"mailto:louaibouraoui0@gmail.com\">M’écrire</a>\n        <a class=\"seemore seemore--ghost\" href=\"/\">Retour à l’accueil</a>",
+    "s9-pagenav": "<a class=\"seemore\" href=\"mailto:louaibouraoui0@gmail.com\">M’écrire</a>\n        <a class=\"seemore seemore--ghost\" href=\"/\">Retour à l’accueil</a>",
     "toc-orders": "Commandes et retours",
     "toc-ex": "Exercices complémentaires",
     "s5-shot-guide-alt": "Article de guide Espace Deals : « Comment choisir sa planche à découper : bois, inox, verre ou titane ? »",
@@ -568,7 +569,7 @@
     "hero-eyebrow": "À propos",
     "hero-h1": "Chargé e-commerce junior, <span class=\"blue-italics\">venu du SEO et du design.</span>",
     "hero-lead": "Licence en communication multimédia, puis master en marketing digital. J’ai fait du marketing digital et du SEO sur un site en production chez Worku, du design d’interface en stage, et j’ai construit Espace Deals, une boutique WooCommerce complète, construite et configurée de A à Z.",
-    "hero-ctas": "<a class=\"seemore\" href=\"%CV_HREF%\" %CV_DOWNLOAD%>%CV_LABEL_LONG%</a>\n        <a class=\"seemore seemore--ghost\" href=\"mailto:louaibouraoui0@gmail.com\">M’écrire</a>",
+    "hero-ctas": "<a class=\"seemore\" href=\"mailto:louaibouraoui0@gmail.com\">M’écrire</a>",
     "profile-eyebrow": "Profil",
     "profile-h2": "Junior, <span class=\"blue-italics\">orienté e-commerce.</span>",
     "profile-line": "À l’aise sur le catalogue, les fiches produits, le SEO on-page et la mesure (GA4, Google Search Console). Je comprends le HTML et le CSS.",
@@ -625,7 +626,7 @@
     "skills-extra-design": "<b>UX/UI :</b> audit de parcours et wireframes chez Worku, maquettes d’applications mobiles sur Figma chez Tuni’AR, dont une boutique. Voir <a href=\"/ux-ui/\">le travail UX/UI</a>.",
     "skills-extra-content": "<b>Contenu LinkedIn :</b> ligne éditoriale et posts de la page Worku. Voir <a href=\"/worku/#linkedin\">le contenu LinkedIn</a>.",
     "skills-extra-languages": "<b>Langues :</b> arabe (langue maternelle), français (courant), anglais (professionnel).",
-    "bottom-ctas": "<a class=\"seemore\" href=\"/espace-deals/\">Voir l’étude de cas Espace Deals</a>\n        <a class=\"seemore seemore--ghost\" href=\"%CV_HREF%\" %CV_DOWNLOAD%>%CV_LABEL_LONG%</a>\n        <a class=\"seemore seemore--ghost\" href=\"mailto:louaibouraoui0@gmail.com\">M’écrire</a>"
+    "bottom-ctas": "<a class=\"seemore\" href=\"/espace-deals/\">Voir l’étude de cas Espace Deals</a>\n        <a class=\"seemore seemore--ghost\" href=\"mailto:louaibouraoui0@gmail.com\">M’écrire</a>"
   },
   "wash-and-go": {
     "title-tuni-ar-wash-and-go": "Tuni&rsquo;AR 2024 | Wash and Go, un cas UX/UI",

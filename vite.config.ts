@@ -36,7 +36,7 @@ function generatePages() {
  * SITE_URL in the Vercel dashboard (Settings, Environment Variables) rather
  * than editing this line, and redeploy.
  */
-const SITE_URL = (process.env.SITE_URL ?? 'https://portfolio2-med-louai-bouraoui.vercel.app').replace(
+const SITE_URL = (process.env.SITE_URL ?? 'https://louai-bouraoui-ecommerce.vercel.app').replace(
   /\/$/,
   '',
 );
@@ -99,26 +99,6 @@ function partials(): Plugin {
 
         // Which language is this page? The path is the only source of truth.
         const locale = current.startsWith('/en/') ? 'en' : 'fr';
-        const aboutPath = locale === 'en' ? '/en/about/' : '/about/';
-
-        // The CV button self-heals. While the PDF is absent the link points at the
-        // About page and relabels itself, so the site never ships a dead download.
-        // Both languages link the French CV until an English CV PDF is added to
-        // public/cv/; then put its path first in the English list.
-        const cvCandidates =
-          locale === 'fr'
-            ? ['/cv/Mohamed-Louai-Bouraoui-CV-FR.pdf', '/cv/Mohamed-Louai-Bouraoui-CV.pdf']
-            : ['/cv/Mohamed-Louai-Bouraoui-CV-FR.pdf', '/cv/Mohamed-Louai-Bouraoui-CV.pdf'];
-        const cvPath = cvCandidates.find((p) => existsSync(resolve(root, 'public', p.slice(1)))) ?? '';
-        const hasCv = cvPath !== '';
-        const cvLabel = {
-          en: { short: 'Download CV', long: 'Download CV (PDF)', none: 'CV on request' },
-          fr: { short: 'Télécharger le CV', long: 'Télécharger le CV (PDF)', none: 'CV sur demande' },
-        }[locale];
-        out = out.split('%CV_HREF%').join(hasCv ? cvPath : aboutPath);
-        out = out.split('%CV_DOWNLOAD%').join(hasCv ? 'download' : '');
-        out = out.split('%CV_LABEL%').join(hasCv ? cvLabel.short : cvLabel.none);
-        out = out.split('%CV_LABEL_LONG%').join(hasCv ? cvLabel.long : cvLabel.none);
 
         return out;
       },
