@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <!--@include partials/head.html-->
+  <title>{{meta-title}}</title>
+  <meta name="description" content="{{meta-description}}" />
+  <meta property="og:title" content="{{og-title}}" />
+  <meta property="og:description" content="{{og-description}}" />
+</head>
+<body id="top">
+
+<!--@include partials/nav.html-->
+
+<main id="main">
+
+  <header class="page-hero grid-bg">
+    <div class="wrap">
+      <nav class="breadcrumb" aria-label="{{breadcrumb-label}}">
+        <ol>
+          <li>{{breadcrumb-home}}</li>
+          <li aria-current="page">{{breadcrumb-current}}</li>
+        </ol>
+      </nav>
+      <p class="eyebrow">{{hero-eyebrow}}</p>
+      <h1>{{hero-h1}}</h1>
+      <p class="lead">{{hero-lead}}</p>
+
+      <div class="pagenav pagenav--hero">
+        {{hero-ctas}}
+      </div>
+    </div>
+  </header>
+
+  <section class="teaser" aria-labelledby="profile-h">
+    <div class="wrap">
+      <p class="eyebrow">{{profile-eyebrow}}</p>
+      <h2 id="profile-h">{{profile-h2}}</h2>
+      <p class="teaser__line">{{profile-line}}</p>
+
+      <div class="figures">
+        <p class="figure">{{profile-fig-store}}</p>
+        <p class="figure">{{profile-fig-master}}</p>
+        <p class="figure">{{profile-fig-languages}}</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="worku" class="teaser grid-bg" aria-labelledby="career-h">
+    <div class="wrap">
+      <p class="eyebrow">{{career-eyebrow}}</p>
+      <h2 id="career-h">{{career-h2}}</h2>
+
+      <div class="career">
+        <article class="career-item">
+          <div class="career-when">{{worku-when}}</div>
+          <div class="career-what">
+            <h3>{{worku-h3}}</h3>
+            <p class="career-role">{{worku-role}}</p>
+            <p class="career-role">{{worku-context}}</p>
+            <ul>
+              <li>{{worku-li-1}}</li>
+              <li>{{worku-li-2}}</li>
+              <li>{{worku-li-3}}</li>
+              <li>{{worku-li-4}}</li>
+              <li>{{worku-li-5}}</li>
+              <li>{{worku-li-6}}</li>
+            </ul>
+            <p style="margin-top:16px"><a class="seemore seemore--ghost" href="/worku/">{{worku-cta}}</a></p>
+          </div>
+        </article>
+      </div>
+
+      <div class="proof-grid proof-grid--single">
+        <proof-shot
+          src="/images/gsc-sitemaps-success.png" width="1413" height="767"
+          chrome="search.google.com/search-console"
+          alt="{{worku-shot-gsc-alt}}"
+          caption="{{worku-shot-gsc-caption}}"></proof-shot>
+      </div>
+
+      <div class="career career--more">
+        <article class="career-item">
+          <div class="career-when">{{tuniar-when}}</div>
+          <div class="career-what">
+            <h3>{{tuniar-h3}}</h3>
+            <p class="career-role">{{tuniar-role}}</p>
+            <ul>
+              <li>{{tuniar-li-1}}</li>
+              <li>{{tuniar-li-2}}</li>
+              <li>{{tuniar-li-3}}</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="career-item">
+          <div class="career-when">{{tanit-when}}</div>
+          <div class="career-what">
+            <h3>{{tanit-h3}}</h3>
+            <p class="career-role">{{tanit-role}}</p>
+            <ul>
+              <li>{{tanit-li-1}}</li>
+              <li>{{tanit-li-2}}</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="teaser" aria-labelledby="edu-h">
+    <div class="wrap">
+      <p class="eyebrow">{{edu-eyebrow}}</p>
+      <h2 id="edu-h">{{edu-h2}}</h2>
+
+      <div class="career">
+        <article class="career-item">
+          <div class="career-when">{{edu-master-when}}</div>
+          <div class="career-what">
+            <h3>{{edu-master-h3}}</h3>
+            <p class="career-role">{{edu-master-school}}</p>
+          </div>
+        </article>
+        <article class="career-item">
+          <div class="career-when">{{edu-bachelor-when}}</div>
+          <div class="career-what">
+            <h3>{{edu-bachelor-h3}}</h3>
+            <p class="career-role">{{edu-bachelor-school}}</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="competences" class="teaser grid-bg" aria-labelledby="skills-h">
+    <div class="wrap">
+      <p class="eyebrow">{{skills-eyebrow}}</p>
+      <h2 id="skills-h">{{skills-h2}}</h2>
+
+      <div class="seo-grid">
+        <div class="content-card">
+          <h3 class="card-h">{{skills-ecom-h3}}</h3>
+          <ul class="extras extras--tight">
+            <li>{{skills-ecom-1}}</li>
+            <li>{{skills-ecom-2}}</li>
+            <li>{{skills-ecom-3}}</li>
+            <li>{{skills-ecom-4}}</li>
+            <li>{{skills-ecom-5}}</li>
+            <li>{{skills-ecom-6}}</li>
+          </ul>
+        </div>
+        <div class="content-card">
+          <h3 class="card-h">{{skills-tools-h3}}</h3>
+          <div class="tags">{{skills-tools-tags}}</div>
+          <p class="toolbox__note">{{skills-tools-ai}}</p>
+        </div>
+      </div>
+
+      <h3 class="case-h3">{{skills-extra-h3}}</h3>
+      <ul class="extras">
+        <li>{{skills-extra-design}}</li>
+        <li>{{skills-extra-content}}</li>
+        <li>{{skills-extra-languages}}</li>
+      </ul>
+
+      <div class="pagenav">
+        {{bottom-ctas}}
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!--@include partials/footer.html-->
+
+<script type="module" src="/main.ts"></script>
+</body>
+</html>

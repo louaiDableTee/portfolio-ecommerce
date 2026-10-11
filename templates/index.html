@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <!--@include partials/head.html-->
+  <title>{{meta-title}}</title>
+  <meta name="description" content="{{meta-description}}" />
+  <meta property="og:title" content="{{og-title}}" />
+  <meta property="og:description" content="{{og-description}}" />
+</head>
+<body id="top">
+
+<!--@include partials/nav.html-->
+
+<main id="main">
+
+  <!-- 1 — Hero -->
+  <header class="hero hero--long grid-bg">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="kicker">{{hero-kicker}}</p>
+        <h1>{{hero-h1}}</h1>
+        <p>{{hero-lead}}</p>
+        <div class="pill-row" aria-label="{{hero-pills-label}}">
+          {{hero-pills}}
+        </div>
+        <div class="hero-ctas">
+          <a class="seemore" href="/espace-deals/">{{hero-cta-case}}</a>
+          <a class="seemore seemore--ghost" href="%CV_HREF%" %CV_DOWNLOAD%>%CV_LABEL%</a>
+        </div>
+      </div>
+
+      <div class="portrait-wrap">
+        <div class="portrait-card">
+          <img src="/assets/photos/louai-photo.jpg" width="400" height="364"
+               alt="{{portrait-alt}}" />
+        </div>
+        <p class="floating-note">{{hero-note}}</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- 2 — Espace Deals, the main proof -->
+  <section class="teaser" aria-labelledby="case-h">
+    <div class="wrap">
+      <p class="eyebrow">{{case-eyebrow}}</p>
+      <h2 id="case-h">{{case-h2}}</h2>
+      <p class="teaser__line">{{case-line}}</p>
+
+      <div class="figures">
+        <p class="figure">{{case-fig-products}}</p>
+        <p class="figure">{{case-fig-keywords}}</p>
+        <p class="figure">{{case-fig-pages}}</p>
+        <p class="figure">{{case-fig-categories}}</p>
+      </div>
+
+      <div class="case-teaser">
+        <div class="teaser__visual">
+          <proof-shot
+            src="/espacedeals/01-accueil.webp" width="1600" height="1000"
+            chrome="espacedeals.com"
+            alt="{{case-shot-alt}}"
+            caption="{{case-shot-caption}}"></proof-shot>
+        </div>
+        <ol class="method-list">
+          <li>{{case-step-1}}</li>
+          <li>{{case-step-2}}</li>
+          <li>{{case-step-3}}</li>
+          <li>{{case-step-4}}</li>
+          <li>{{case-step-5}}</li>
+          <li>{{case-step-6}}</li>
+        </ol>
+      </div>
+
+      <a class="seemore" href="/espace-deals/">{{case-cta}}</a>
+    </div>
+  </section>
+
+  <!-- 3 — Skills, in recruiter wording -->
+  <section class="teaser grid-bg" aria-labelledby="skills-h">
+    <div class="wrap">
+      <p class="eyebrow">{{skills-eyebrow}}</p>
+      <h2 id="skills-h">{{skills-h2}}</h2>
+      <p class="teaser__line">{{skills-line}}</p>
+
+      <div class="skill-cards skill-cards--two">
+        <a class="skill-card" href="/espace-deals/#catalogue">
+          <p class="slabel">{{skill-1-label}}</p>
+          <h3>{{skill-1-h3}}</h3>
+          <p>{{skill-1-p}}</p>
+          <span class="arrow">{{skill-1-arrow}}</span>
+        </a>
+        <a class="skill-card" href="/espace-deals/#fiches">
+          <p class="slabel">{{skill-2-label}}</p>
+          <h3>{{skill-2-h3}}</h3>
+          <p>{{skill-2-p}}</p>
+          <span class="arrow">{{skill-2-arrow}}</span>
+        </a>
+        <a class="skill-card" href="/espace-deals/#mots-cles">
+          <p class="slabel">{{skill-3-label}}</p>
+          <h3>{{skill-3-h3}}</h3>
+          <p>{{skill-3-p}}</p>
+          <span class="arrow">{{skill-3-arrow}}</span>
+        </a>
+        <a class="skill-card" href="/espace-deals/#suivi">
+          <p class="slabel">{{skill-4-label}}</p>
+          <h3>{{skill-4-h3}}</h3>
+          <p>{{skill-4-p}}</p>
+          <p>{{skill-4-kpi}}</p>
+          <span class="arrow">{{skill-4-arrow}}</span>
+        </a>
+      </div>
+
+      <div class="toolbox">
+        <h3 class="toolbox__h">{{tools-h3}}</h3>
+        <div class="tags">{{tools-tags}}</div>
+        <p class="toolbox__note">{{tools-ai}}</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4 — Experience: Worku -->
+  <section id="experience" class="teaser" aria-labelledby="experience-h">
+    <div class="wrap">
+      <p class="eyebrow">{{exp-eyebrow}}</p>
+      <h2 id="experience-h">{{exp-h2}}</h2>
+
+      <div class="career">
+        <article class="career-item">
+          <div class="career-when">{{exp-when}}</div>
+          <div class="career-what">
+            <h3>{{exp-h3}}</h3>
+            <p class="career-role">{{exp-role}}</p>
+            <ul>
+              <li>{{exp-li-1}}</li>
+              <li>{{exp-li-2}}</li>
+              <li>{{exp-li-3}}</li>
+              <li>{{exp-li-4}}</li>
+              <li>{{exp-li-5}}</li>
+              <li>{{exp-li-6}}</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+
+      <a class="seemore seemore--ghost" href="/worku/">{{exp-cta}}</a>
+    </div>
+  </section>
+
+  <!-- 5 — Complementary skills -->
+  <section class="teaser grid-bg" aria-labelledby="extras-h">
+    <div class="wrap">
+      <p class="eyebrow">{{extras-eyebrow}}</p>
+      <h2 id="extras-h">{{extras-h2}}</h2>
+      <div class="skill-cards skill-cards--two">
+        <a class="skill-card" href="/ux-ui/">
+          <p class="slabel">{{extras-1-label}}</p>
+          <h3>{{extras-1-h3}}</h3>
+          <p>{{extras-1-p}}</p>
+          <span class="arrow">{{extras-1-arrow}}</span>
+        </a>
+        <a class="skill-card" href="/worku/">
+          <p class="slabel">{{extras-2-label}}</p>
+          <h3>{{extras-2-h3}}</h3>
+          <p>{{extras-2-p}}</p>
+          <span class="arrow">{{extras-2-arrow}}</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6 — Contact -->
+  <section id="contact" class="cta" aria-labelledby="contact-h">
+    <div class="wrap">
+      <div class="cta-box">
+        <div>
+          <p class="section-label">{{contact-label}}</p>
+          <h2 id="contact-h">{{contact-h2}}</h2>
+          <p>{{contact-p}}</p>
+          <p class="contact-email"><a href="mailto:louaibouraoui0@gmail.com">louaibouraoui0@gmail.com</a></p>
+        </div>
+        <div class="contact-links">
+          {{contact-links}}
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!--@include partials/footer.html-->
+
+<script type="module" src="/main.ts"></script>
+</body>
+</html>
