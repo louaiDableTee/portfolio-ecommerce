@@ -42,44 +42,7 @@
         <p>{{demo-p}}</p>
       </aside>
 
-      <aside class="summary-box" aria-labelledby="summary-h">
-        <h2 id="summary-h" class="summary-box__h">{{summary-h}}</h2>
-        <ul>
-          <li><a href="#catalogue">{{summary-1}}</a></li>
-          <li><a href="#mots-cles">{{summary-2}}</a></li>
-          <li><a href="#boutique">{{summary-3}}</a></li>
-          <li><a href="#commandes">{{summary-4}}</a></li>
-          <li><a href="#suivi">{{summary-5}}</a></li>
-        </ul>
-      </aside>
-
-      <nav class="toc" aria-label="{{toc-label}}">
-        <ol>
-          <li><a href="#demo-video">{{toc-video}}</a></li>
-          <li><a href="#contexte">{{toc-1}}</a></li>
-          <li><a href="#mots-cles">{{toc-2}}</a></li>
-          <li><a href="#arborescence">{{toc-3}}</a></li>
-          <li><a href="#catalogue">{{toc-4}}</a></li>
-          <li><a href="#fiches">{{toc-5}}</a></li>
-          <li><a href="#boutique">{{toc-6}}</a></li>
-          <li><a href="#commandes">{{toc-orders}}</a></li>
-          <li><a href="#suivi">{{toc-7}}</a></li>
-          <li><a href="#images">{{toc-8}}</a></li>
-          <li><a href="#ensuite">{{toc-9}}</a></li>
-          <li><a href="#exercices">{{toc-ex}}</a></li>
-        </ol>
-      </nav>
-    </div>
-  </header>
-
-  <!-- Video demo: the whole order, start to finish -->
-  <section id="demo-video" class="teaser" aria-labelledby="demo-video-h">
-    <div class="wrap">
-      <p class="eyebrow">{{video-eyebrow}}</p>
-      <h2 id="demo-video-h">{{video-h2}}</h2>
-      <p class="teaser__line">{{video-line}}</p>
-
-      <figure class="demo-video">
+      <figure id="demo-video" class="demo-video hero-video">
         <video controls muted playsinline preload="none"
                poster="/espacedeals/espace-deals-parcours-poster.webp"
                width="1280" height="720"
@@ -89,9 +52,69 @@
         </video>
         <figcaption class="demo-video__caption">{{video-caption}}</figcaption>
       </figure>
+
+      <nav class="toc" aria-label="{{toc-label}}">
+        <ol>
+          <li><a href="#images"><b>{{toc-8}}</b></a></li>
+          <li><a href="#contexte"><b>{{toc-1}}</b></a></li>
+          <li><a href="#mots-cles"><b>{{toc-2}}</b></a></li>
+          <li><a href="#arborescence"><b>{{toc-3}}</b></a></li>
+          <li><a href="#catalogue"><b>{{toc-4}}</b></a></li>
+          <li><a href="#fiches"><b>{{toc-5}}</b></a></li>
+          <li><a href="#boutique"><b>{{toc-6}}</b></a></li>
+          <li><a href="#commandes"><b>{{toc-orders}}</b></a></li>
+          <li><a href="#suivi"><b>{{toc-7}}</b></a></li>
+          <li><a href="#ensuite"><b>{{toc-9}}</b></a></li>
+          <li><a href="#exercices"><b>{{toc-ex}}</b></a></li>
+        </ol>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Store, client side: first proof right after the hero -->
+  <section id="images" class="teaser" aria-labelledby="images-h">
+    <div class="wrap">
+      <p class="eyebrow">{{s8-eyebrow}}</p>
+      <h2 id="images-h">{{s8-h2}}</h2>
+      <p class="teaser__line">{{s8-line}}</p>
+
+      <div class="proof-grid proof-grid--single">
+        <proof-shot
+          src="/espacedeals/01-accueil.webp" width="1600" height="1000"
+          chrome="espacedeals.local"
+          alt="{{s8-shot-home-alt}}"
+          caption="{{s8-shot-home-caption}}"></proof-shot>
+      </div>
+      <div class="proof-grid proof-grid--annot">
+        <proof-shot
+          src="/espacedeals/02-categorie.webp" width="1600" height="1000"
+          chrome="espacedeals.local"
+          alt="{{s8-shot-cat-alt}}"
+          caption="{{s8-shot-cat-caption}}"></proof-shot>
+        <div class="annot">
+          <div class="annot__stage">
+            <proof-shot
+              src="/espacedeals/03-fiche-produit.webp" width="1600" height="1000"
+              chrome="espacedeals.local"
+              alt="{{s8-shot-product-alt}}"></proof-shot>
+            <ol class="annot__layer" aria-hidden="true">
+              <li style="--x:44.5%;--y:27.5%"><i>1</i><span>{{annot-1}}</span></li>
+              <li style="--x:74.5%;--y:34.7%"><i>2</i><span>{{annot-2}}</span></li>
+              <li style="--x:79.5%;--y:41.1%"><i>3</i><span>{{annot-3}}</span></li>
+              <li style="--x:76.5%;--y:52%"><i>4</i><span>{{annot-4}}</span></li>
+            </ol>
+          </div>
+          <p class="proof-caption annot__caption">{{s8-shot-product-caption}}</p>
+          <ol class="annot__legend">
+            <li><i>1</i>{{annot-1}}</li>
+            <li><i>2</i>{{annot-2}}</li>
+            <li><i>3</i>{{annot-3}}</li>
+            <li><i>4</i>{{annot-4}}</li>
+          </ol>
+        </div>
+      </div>
     </div>
   </section>
-
   <!-- 1 — Context -->
   <section id="contexte" class="teaser" aria-labelledby="contexte-h">
     <div class="wrap">
@@ -99,27 +122,6 @@
       <h2 id="contexte-h">{{s1-h2}}</h2>
       <p class="teaser__line">{{s1-line}}</p>
 
-      <div class="beats">
-        <div class="beat">
-          <b>{{s1-beat-1-b}}</b>
-          <p>{{s1-beat-1-p}}</p>
-        </div>
-        <div class="beat">
-          <b>{{s1-beat-2-b}}</b>
-          <p>{{s1-beat-2-p}}</p>
-        </div>
-        <div class="beat beat--proof">
-          <b>{{s1-beat-3-b}}</b>
-          <p>{{s1-beat-3-p}}</p>
-        </div>
-      </div>
-
-      <h3 class="case-h3">{{s1-build-h3}}</h3>
-      <ol class="method-list">
-        <li>{{s1-build-1}}</li>
-        <li>{{s1-build-2}}</li>
-        <li>{{s1-build-3}}</li>
-      </ol>
       <p class="case-note">{{s1-ai}}</p>
     </div>
   </section>
@@ -138,24 +140,18 @@
       </div>
 
       <h3 class="case-h3">{{s2-rules-h3}}</h3>
-      <ol class="method-list">
-        <li>{{s2-rule-1}}</li>
-        <li>{{s2-rule-2}}</li>
-        <li>{{s2-rule-3}}</li>
-        <li>{{s2-rule-4}}</li>
-      </ol>
-
-      <h3 class="case-h3">{{s2-changed-h3}}</h3>
-      <div class="seo-grid">
-        <div class="content-card">
-          <h4 class="card-h">{{s2-changed-1-h}}</h4>
-          <p>{{s2-changed-1-p}}</p>
-        </div>
-        <div class="content-card">
-          <h4 class="card-h">{{s2-changed-2-h}}</h4>
-          <p>{{s2-changed-2-p}}</p>
-        </div>
+      <div class="rules" role="list">
+        <div class="rules__row" role="listitem"><span class="rules__from">{{s2-flow-1-from}}</span><span class="rules__arrow" aria-hidden="true">→</span><span class="rules__to">{{s2-flow-1-to}}</span></div>
+        <div class="rules__row" role="listitem"><span class="rules__from">{{s2-flow-2-from}}</span><span class="rules__arrow" aria-hidden="true">→</span><span class="rules__to">{{s2-flow-2-to}}</span></div>
+        <div class="rules__row" role="listitem"><span class="rules__from">{{s2-flow-3-from}}</span><span class="rules__arrow" aria-hidden="true">→</span><span class="rules__to">{{s2-flow-3-to}}</span></div>
       </div>
+      <p class="case-note">{{s2-rule-4}}</p>
+
+      <aside class="callout">
+        <p class="callout__label">{{s2-changed-h3}}</p>
+        <p class="callout__h">{{s2-changed-1-h}}</p>
+        <p>{{s2-changed-1-p}}</p>
+      </aside>
 
       <div class="proof-grid proof-grid--single">
         <proof-shot
@@ -181,23 +177,23 @@
         <p class="figure">{{s3-fig-clicks}}</p>
       </div>
 
-      <figure class="tree">
+      <figure class="sitemap">
         <figcaption class="tree__caption">{{s3-tree-caption}}</figcaption>
-        <ul>
-          <li><span class="tree__node tree__node--root">{{s3-tree-home}}</span>
-            <ul>
-              <li><span class="tree__node">{{s3-tree-cuisine}}</span>
-                <ul>
-                  <li><span class="tree__node">{{s3-tree-cat-1}}</span> <span class="tree__leaf">{{s3-tree-products}}</span></li>
-                  <li><span class="tree__node">{{s3-tree-cat-2}}</span> <span class="tree__leaf">{{s3-tree-products}}</span></li>
-                  <li><span class="tree__node">{{s3-tree-cat-3}}</span> <span class="tree__leaf">{{s3-tree-products}}</span></li>
-                  <li><span class="tree__node">{{s3-tree-cat-4}}</span> <span class="tree__leaf">{{s3-tree-products}}</span></li>
-                </ul>
-              </li>
-              <li><span class="tree__node">{{s3-tree-guide}}</span></li>
+        <div class="sitemap__root"><span class="tree__node tree__node--root">{{s3-tree-home}}</span></div>
+        <div class="sitemap__l2">
+          <div class="sitemap__branch">
+            <span class="tree__node">{{s3-tree-cuisine}}</span>
+            <ul class="sitemap__cats">
+              <li><span class="tree__node">{{s3-tree-cat-1}}</span><small>{{s3-tree-products}}</small></li>
+              <li><span class="tree__node">{{s3-tree-cat-2}}</span><small>{{s3-tree-products}}</small></li>
+              <li><span class="tree__node">{{s3-tree-cat-3}}</span><small>{{s3-tree-products}}</small></li>
+              <li><span class="tree__node">{{s3-tree-cat-4}}</span><small>{{s3-tree-products}}</small></li>
             </ul>
-          </li>
-        </ul>
+          </div>
+          <div class="sitemap__branch sitemap__branch--guide">
+            <span class="tree__node">{{s3-tree-guide}}</span>
+          </div>
+        </div>
       </figure>
 
       <p class="case-note">{{s3-permalinks}}</p>
@@ -211,26 +207,7 @@
       <h2 id="catalogue-h">{{s4-h2}}</h2>
       <p class="teaser__line">{{s4-line}}</p>
 
-      <div class="results results--spec">
-        <table>
-          <caption>{{s4-table-caption}}</caption>
-          <thead>
-            <tr><th scope="col">{{s4-th-field}}</th><th scope="col">{{s4-th-what}}</th></tr>
-          </thead>
-          <tbody>
-            <tr><th scope="row">{{s4-row-sku}}</th><td data-label="{{s4-th-what}}">{{s4-row-sku-td}}</td></tr>
-            <tr><th scope="row">{{s4-row-cat}}</th><td data-label="{{s4-th-what}}">{{s4-row-cat-td}}</td></tr>
-            <tr><th scope="row">{{s4-row-attr}}</th><td data-label="{{s4-th-what}}">{{s4-row-attr-td}}</td></tr>
-            <tr><th scope="row">{{s4-row-desc}}</th><td data-label="{{s4-th-what}}">{{s4-row-desc-td}}</td></tr>
-            <tr><th scope="row">{{s4-row-price}}</th><td data-label="{{s4-th-what}}">{{s4-row-price-td}}</td></tr>
-            <tr><th scope="row">{{s4-row-stock}}</th><td data-label="{{s4-th-what}}">{{s4-row-stock-td}}</td></tr>
-            <tr><th scope="row">{{s4-row-promo}}</th><td data-label="{{s4-th-what}}">{{s4-row-promo-td}}</td></tr>
-          </tbody>
-        </table>
-      </div>
-
-      <h3 class="case-h3">{{s4-quality-h3}}</h3>
-      <p class="case-text">{{s4-quality-p}}</p>
+      <p class="case-note">{{s4-quality-p}}</p>
 
       <div class="proof-grid proof-grid--single">
         <proof-shot
@@ -249,25 +226,15 @@
       <h2 id="fiches-h">{{s5-h2}}</h2>
       <p class="teaser__line">{{s5-line}}</p>
 
-      <div class="seo-grid">
-        <div>
-          <h3 class="case-h3 case-h3--tight">{{s5-pages-h3}}</h3>
-          <div class="seo-list">
-            <div class="seo-item"><span class="icon" aria-hidden="true">01</span><p>{{s5-pages-1}}</p></div>
-            <div class="seo-item"><span class="icon" aria-hidden="true">02</span><p>{{s5-pages-2}}</p></div>
-            <div class="seo-item"><span class="icon" aria-hidden="true">03</span><p>{{s5-pages-3}}</p></div>
-          </div>
-        </div>
-        <div>
-          <h3 class="case-h3 case-h3--tight">{{s5-seo-h3}}</h3>
-          <div class="seo-list">
-            <div class="seo-item"><span class="icon" aria-hidden="true">01</span><p>{{s5-seo-1}}</p></div>
-            <div class="seo-item"><span class="icon" aria-hidden="true">02</span><p>{{s5-seo-2}}</p></div>
-            <div class="seo-item"><span class="icon" aria-hidden="true">03</span><p>{{s5-seo-3}}</p></div>
-            <div class="seo-item"><span class="icon" aria-hidden="true">04</span><p>{{s5-seo-4}}</p></div>
-            <div class="seo-item"><span class="icon" aria-hidden="true">05</span><p>{{s5-seo-5}}</p></div>
-          </div>
-        </div>
+      <h3 class="case-h3 case-h3--tight">{{s5-pages-h3}}</h3>
+      <ul class="badges">
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v2H4zm0 6h16v2H4zm0 6h10v2H4z"/></svg>{{s5-badge-1}}</li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm1 2v8l4-4 3 3 3-4 4 5V7zm4 2.5A1.5 1.5 0 1 0 9 6.5a1.5 1.5 0 0 0 0 3z"/></svg>{{s5-badge-2}}</li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h14v4h-2V6h-4v12h2v2H9v-2h2V6H7v2H5z"/></svg>{{s5-badge-3}}</li>
+      </ul>
+      <h3 class="case-h3 case-h3--tight">{{s5-seo-h3}}</h3>
+      <div class="chips chips--wrap">
+        <span>{{s5-chip-1}}</span><span>{{s5-chip-2}}</span><span>{{s5-chip-3}}</span><span>{{s5-chip-4}}</span><span>{{s5-chip-5}}</span>
       </div>
 
       <div class="proof-grid">
@@ -299,24 +266,15 @@
       <h2 id="boutique-h">{{s6-h2}}</h2>
       <p class="teaser__line">{{s6-line}}</p>
 
-      <div class="seo-grid">
-        <div>
-          <h3 class="case-h3 case-h3--tight">{{s6-pay-h3}}</h3>
-          <div class="seo-list">
-            <div class="seo-item"><span class="icon" aria-hidden="true">01</span><p>{{s6-pay-1}}</p></div>
-            <div class="seo-item"><span class="icon" aria-hidden="true">02</span><p>{{s6-pay-2}}</p></div>
-            <div class="seo-item"><span class="icon" aria-hidden="true">03</span><p>{{s6-pay-3}}</p></div>
-          </div>
-        </div>
-        <div>
-          <h3 class="case-h3 case-h3--tight">{{s6-site-h3}}</h3>
-          <div class="seo-list">
-            <div class="seo-item"><span class="icon" aria-hidden="true">01</span><p>{{s6-site-1}}</p></div>
-            <div class="seo-item"><span class="icon" aria-hidden="true">02</span><p>{{s6-site-2}}</p></div>
-            <div class="seo-item"><span class="icon" aria-hidden="true">03</span><p>{{s6-site-3}}</p></div>
-            <div class="seo-item"><span class="icon" aria-hidden="true">04</span><p>{{s6-site-4}}</p></div>
-          </div>
-        </div>
+      <h3 class="case-h3 case-h3--tight">{{s6-pay-h3}}</h3>
+      <ul class="badges">
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18zm1 4v1.1c1.3.2 2.3 1 2.4 2.2h-1.7c-.1-.5-.6-.8-1.7-.8-1 0-1.5.3-1.5.8 0 .5.4.7 1.9 1 1.8.4 3 .9 3 2.4 0 1.2-.9 2-2.4 2.3V17h-2v-1.1c-1.5-.2-2.5-1.1-2.6-2.4h1.8c.1.7.7 1 1.8 1s1.6-.3 1.6-.8c0-.5-.4-.7-2-1.1-1.7-.4-2.9-1-2.9-2.4 0-1.1.9-1.9 2.2-2.2V7z"/></svg>{{s6-badge-1}}</li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h11v9h-1.1a2.5 2.5 0 0 0-4.8 0H3zm12 3h3.5l2.5 3v3h-1.1a2.5 2.5 0 0 0-4.8 0H15zM6.5 15.5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm10 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/></svg>{{s6-badge-2}}</li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v2H3zm0 4h18v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2zm3 3v2h4v-2z"/></svg>{{s6-badge-3}}</li>
+      </ul>
+      <h3 class="case-h3 case-h3--tight">{{s6-site-h3}}</h3>
+      <div class="chips chips--wrap">
+        <span>{{s6-chip-1}}</span><span>{{s6-chip-2}}</span><span>{{s6-chip-3}}</span><span>{{s6-chip-4}}</span>
       </div>
 
       <div class="proof-grid">
@@ -341,31 +299,37 @@
       <h2 id="commandes-h">{{orders-h2}}</h2>
       <p class="teaser__line">{{orders-line}}</p>
 
-      <ol class="method-list">
-        <li>{{orders-1}}</li>
-        <li>{{orders-2}}</li>
-        <li>{{orders-3}}</li>
+      <ol class="otl" aria-label="{{orders-tl-label}}">
+        <li>{{orders-tl-1}}</li>
+        <li>{{orders-tl-2}}</li>
+        <li>{{orders-tl-3}}</li>
+        <li>{{orders-tl-4}}</li>
+        <li>{{orders-tl-5}}</li>
+        <li>{{orders-tl-6}}</li>
       </ol>
 
       <h3 class="case-h3">{{msg-h3}}</h3>
       <p class="case-text">{{msg-intro}}</p>
-      <div class="msg-grid">
-        <figure class="msg-card">
-          <figcaption class="msg-card__h">{{msg-1-h}}</figcaption>
-          <blockquote>{{msg-1}}</blockquote>
-        </figure>
-        <figure class="msg-card">
-          <figcaption class="msg-card__h">{{msg-2-h}}</figcaption>
-          <blockquote>{{msg-2}}</blockquote>
-        </figure>
-        <figure class="msg-card">
-          <figcaption class="msg-card__h">{{msg-3-h}}</figcaption>
-          <blockquote>{{msg-3}}</blockquote>
-        </figure>
-        <figure class="msg-card">
-          <figcaption class="msg-card__h">{{msg-4-h}}</figcaption>
-          <blockquote>{{msg-4}}</blockquote>
-        </figure>
+      <div class="chat">
+        <div class="chat__item">
+          <p class="chat__h">{{msg-1-h}}</p>
+          <div class="bubble">{{msg-1}}</div>
+        </div>
+        <div class="chat__item">
+          <p class="chat__h">{{msg-2-h}}</p>
+          <div class="bubble">{{msg-2}}</div>
+        </div>
+        <details class="chat__more">
+          <summary>{{msg-more}}</summary>
+          <div class="chat__item">
+            <p class="chat__h">{{msg-3-h}}</p>
+            <div class="bubble">{{msg-3}}</div>
+          </div>
+          <div class="chat__item">
+            <p class="chat__h">{{msg-4-h}}</p>
+            <div class="bubble">{{msg-4}}</div>
+          </div>
+        </details>
       </div>
 
       <div class="proof-grid proof-grid--single">
@@ -386,12 +350,12 @@
       <h2 id="suivi-h">{{s7-h2}}</h2>
       <p class="teaser__line">{{s7-line}}</p>
 
-      <ol class="funnel" aria-label="{{s7-funnel-label}}">
-        <li><span>{{s7-step-1}}</span><code>view_item_list</code></li>
-        <li><span>{{s7-step-2}}</span><code>view_item</code></li>
-        <li><span>{{s7-step-3}}</span><code>add_to_cart</code></li>
-        <li><span>{{s7-step-4}}</span><code>begin_checkout</code></li>
-        <li><span>{{s7-step-5}}</span><code>purchase</code></li>
+      <ol class="funnel funnel--v" aria-label="{{s7-funnel-label}}">
+        <li style="--w:100%"><span>{{s7-step-1}}</span><code>view_item_list</code></li>
+        <li style="--w:88%"><span>{{s7-step-2}}</span><code>view_item</code></li>
+        <li style="--w:76%"><span>{{s7-step-3}}</span><code>add_to_cart</code></li>
+        <li style="--w:64%"><span>{{s7-step-4}}</span><code>begin_checkout</code></li>
+        <li style="--w:52%"><span>{{s7-step-5}}</span><code>purchase</code></li>
       </ol>
       <p class="case-note">{{s7-checked}}</p>
 
@@ -405,35 +369,6 @@
     </div>
   </section>
 
-  <!-- 9 — The result, storefront side -->
-  <section id="images" class="teaser" aria-labelledby="images-h">
-    <div class="wrap">
-      <p class="eyebrow">{{s8-eyebrow}}</p>
-      <h2 id="images-h">{{s8-h2}}</h2>
-      <p class="teaser__line">{{s8-line}}</p>
-
-      <div class="proof-grid proof-grid--single">
-        <proof-shot
-          src="/espacedeals/01-accueil.webp" width="1600" height="1000"
-          chrome="espacedeals.local"
-          alt="{{s8-shot-home-alt}}"
-          caption="{{s8-shot-home-caption}}"></proof-shot>
-      </div>
-      <div class="proof-grid">
-        <proof-shot
-          src="/espacedeals/02-categorie.webp" width="1600" height="1000"
-          chrome="espacedeals.local"
-          alt="{{s8-shot-cat-alt}}"
-          caption="{{s8-shot-cat-caption}}"></proof-shot>
-        <proof-shot
-          src="/espacedeals/03-fiche-produit.webp" width="1600" height="1000"
-          chrome="espacedeals.local"
-          alt="{{s8-shot-product-alt}}"
-          caption="{{s8-shot-product-caption}}"></proof-shot>
-      </div>
-    </div>
-  </section>
-
   <!-- 10 — Lessons and next steps -->
   <section id="ensuite" class="teaser grid-bg" aria-labelledby="ensuite-h">
     <div class="wrap">
@@ -443,23 +378,22 @@
       <div class="seo-grid">
         <div>
           <h3 class="case-h3 case-h3--tight">{{s9-learned-h3}}</h3>
-          <ol class="method-list">
+          <ul class="onelines">
             <li>{{s9-learned-1}}</li>
             <li>{{s9-learned-2}}</li>
             <li>{{s9-learned-3}}</li>
             <li>{{s9-learned-4}}</li>
-          </ol>
+          </ul>
         </div>
         <div class="plan-card">
           <h3 class="case-h3 case-h3--tight">{{s9-next-h3}}</h3>
-          <p class="case-text">{{s9-next-intro}}</p>
-          <ol class="method-list">
+          <ul class="onelines">
             <li>{{s9-next-1}}</li>
             <li>{{s9-next-2}}</li>
             <li>{{s9-next-3}}</li>
             <li>{{s9-next-4}}</li>
             <li>{{s9-next-5}}</li>
-          </ol>
+          </ul>
         </div>
       </div>
     </div>
