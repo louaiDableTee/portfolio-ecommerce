@@ -22,11 +22,27 @@
         </ol>
       </nav>
 
-      <div class="hero-split">
+      <div class="hero-split hero-split--video">
         <div class="hero-split__text">
           <p class="eyebrow">{{hero-eyebrow}}</p>
           <h1>{{hero-h1}}</h1>
           <p class="lead">{{hero-lead}}</p>
+
+          <figure id="demo-video" class="demo-video hero-video">
+            <video controls muted playsinline preload="none"
+                   poster="/espacedeals/espace-deals-parcours-poster.webp"
+                   width="1280" height="720"
+                   aria-label="{{video-aria}}">
+              <source src="/espacedeals/espace-deals-parcours.mp4" type="video/mp4" />
+              <a href="/espacedeals/espace-deals-parcours.mp4">{{video-fallback}}</a>
+            </video>
+            <figcaption class="demo-video__caption">{{video-caption}}</figcaption>
+          </figure>
+
+          <aside class="demo-note" aria-labelledby="demo-h">
+            <h2 id="demo-h" class="demo-note__h">{{demo-h}}</h2>
+            <p>{{demo-p}}</p>
+          </aside>
         </div>
 
         <dl class="case-facts">
@@ -36,22 +52,6 @@
           <div><dt>{{fact-market-dt}}</dt><dd>{{fact-market-dd}}</dd></div>
         </dl>
       </div>
-
-      <aside class="demo-note" aria-labelledby="demo-h">
-        <h2 id="demo-h" class="demo-note__h">{{demo-h}}</h2>
-        <p>{{demo-p}}</p>
-      </aside>
-
-      <figure id="demo-video" class="demo-video hero-video">
-        <video controls muted playsinline preload="none"
-               poster="/espacedeals/espace-deals-parcours-poster.webp"
-               width="1280" height="720"
-               aria-label="{{video-aria}}">
-          <source src="/espacedeals/espace-deals-parcours.mp4" type="video/mp4" />
-          <a href="/espacedeals/espace-deals-parcours.mp4">{{video-fallback}}</a>
-        </video>
-        <figcaption class="demo-video__caption">{{video-caption}}</figcaption>
-      </figure>
 
       <nav class="toc" aria-label="{{toc-label}}">
         <ol>

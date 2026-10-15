@@ -1491,3 +1491,36 @@ footer{border-top:1px solid var(--line);padding:56px 0 26px;color:var(--muted);f
 .about-portrait{margin:0;justify-self:center;width:min(100%,320px);border-radius:30px;background:#fff;border:1px solid var(--line);padding:12px;box-shadow:var(--shadow)}
 .about-portrait img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 32%;border-radius:20px}
 @media(max-width:900px){.hero-split--portrait{grid-template-columns:1fr}.about-portrait{justify-self:start;width:min(100%,260px)}}
+
+/* ===== follow-up fixes ===== */
+/* Espace Deals hero: video under the intro, notice under the video */
+.hero-split--video{align-items:start}
+.hero-split--video .hero-video{margin-top:26px;max-width:none}
+.hero-split--video .demo-note{margin-top:20px;max-width:none}
+.hero-split--video .case-facts{margin-top:64px;align-self:start}
+.page-hero .hero-split--video h1{max-width:20ch}
+@media(max-width:900px){.hero-split--video .case-facts{margin-top:0}}
+
+/* sitemap: connector lines from Cuisine to its four boxes */
+.sitemap__cats{position:relative;margin-top:38px}
+.sitemap__cats:before{content:"";position:absolute;left:calc(50% - 1px);top:-38px;width:2px;height:20px;background:#dbe4ff}
+.sitemap__cats:after{content:"";position:absolute;top:-18px;left:calc(12.5% - 4px);right:calc(12.5% - 4px);height:2px;background:#dbe4ff}
+.sitemap__cats li{position:relative}
+.sitemap__cats li:before{content:"";position:absolute;left:calc(50% - 1px);top:-18px;width:2px;height:18px;background:#dbe4ff}
+@media(max-width:700px){
+  .sitemap__branch{text-align:left}
+  .sitemap__cats{display:block;margin:0 0 0 18px;padding:6px 0 0 20px;border-left:2px solid #dbe4ff}
+  .sitemap__cats:before,.sitemap__cats:after{display:none}
+  .sitemap__cats li{flex-direction:row;justify-content:space-between;align-items:center;gap:10px;margin-top:10px;text-align:left}
+  .sitemap__cats li:before{left:-22px;top:calc(50% - 1px);width:20px;height:2px}
+}
+
+/* About: thumbnail beside the Tuni'AR entry */
+.career-item--thumb{grid-template-columns:200px 1fr 230px;align-items:start}
+.career-thumb{display:block;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:#fff;box-shadow:0 8px 22px rgba(20,31,60,.07)}
+.career-thumb img{display:block;width:100%;height:auto}
+@media(max-width:900px){
+  .career-item--thumb{grid-template-columns:1fr}
+  .career-thumb{width:min(100%,260px)}
+}
+@media(max-width:700px){.sitemap__root:after{display:none}.sitemap__root{padding-bottom:16px;justify-content:flex-start}}
