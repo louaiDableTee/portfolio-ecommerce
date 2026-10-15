@@ -1482,3 +1482,6 @@ footer{border-top:1px solid var(--line);padding:56px 0 26px;color:var(--muted);f
 }
 .teaser__line + .case-h3--tight{margin-top:28px}
 @media(min-width:1440px){.page-hero .toc a:hover,.page-hero .toc a:focus-visible{background:#fff}}
+.buyers{margin-top:34px;max-width:760px}
+.buyers .case-h3{margin-top:0}
+.teaser h2 + .chips--wrap{margin-top:22px}

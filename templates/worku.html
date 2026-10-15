@@ -60,37 +60,6 @@
       <h2 id="story-h">{{h2-we-built-the-wrong-product}}</h2>
       <p class="teaser__line">{{p-worku-has-existed-in-two}}</p>
 
-      <ol class="journey">
-        <li class="journey__item">
-          <span class="journey__step">01</span>
-          <span class="journey__icon"><svg aria-hidden="true"><use href="#icon-post" /></svg></span>
-          <h3>{{h3-an-applicant-tracker}}</h3>
-          <p>{{p-recruiters-posted-a-job-an}}</p>
-          <span class="journey__when">{{span-the-first-version}}</span>
-        </li>
-        <li class="journey__item journey__item--fail">
-          <span class="journey__step">02</span>
-          <span class="journey__icon"><svg aria-hidden="true"><use href="#icon-stop" /></svg></span>
-          <h3>{{h3-it-did-not-work}}</h3>
-          <p>{{p-it-stayed-live-for-more}}</p>
-          <span class="journey__when">{{span-after-launch}}</span>
-        </li>
-        <li class="journey__item">
-          <span class="journey__step">03</span>
-          <span class="journey__icon"><svg aria-hidden="true"><use href="#icon-ask" /></svg></span>
-          <h3>{{h3-so-we-asked}}</h3>
-          <p>{{p-we-went-to-recruiters-and}}</p>
-          <span class="journey__when">{{span-before-the-rebuild}}</span>
-        </li>
-        <li class="journey__item journey__item--win">
-          <span class="journey__step">04</span>
-          <span class="journey__icon"><svg aria-hidden="true"><use href="#icon-database" /></svg></span>
-          <h3>{{h3-sourcing-instead}}</h3>
-          <p>{{p-millions-of-profiles-searchable-returned}}</p>
-          <span class="journey__when">{{span-january-2026}}</span>
-        </li>
-      </ol>
-
       <div class="flows">
         <figure class="flow flow--old">
           <figcaption>
@@ -195,45 +164,12 @@
         <li>{{prospect-3}}</li>
       </ol>
 
-      <figure class="mock-sheet">
-        <figcaption class="mock-sheet__caption">{{prospect-mock-caption}}</figcaption>
-        <div class="mock-sheet__scroll" tabindex="0" role="group" aria-label="{{prospect-mock-caption}}">
-          <table>
-            <thead>
-              <tr>
-                <th scope="col">{{col-prospect}}</th>
-                <th scope="col">{{col-type}}</th>
-                <th scope="col">{{col-speciality}}</th>
-                <th scope="col">{{col-linkedin}}</th>
-                <th scope="col">{{col-score}}</th>
-                <th scope="col">{{col-status}}</th>
-                <th scope="col">{{col-next}}</th>
-                <th scope="col">{{col-notes}}</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr><th scope="row">Prospect A</th><td>…</td><td>…</td><td>…</td><td>…</td><td>…</td><td>…</td><td>…</td></tr>
-              <tr><th scope="row">Prospect B</th><td>…</td><td>…</td><td>…</td><td>…</td><td>…</td><td>…</td><td>…</td></tr>
-              <tr><th scope="row">Prospect C</th><td>…</td><td>…</td><td>…</td><td>…</td><td>…</td><td>…</td><td>…</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </figure>
-    </div>
-  </section>
-
-  <!-- 5 — Research and product tests -->
-  <section id="recherche" class="teaser grid-bg" aria-labelledby="research-h">
-    <div class="wrap">
-      <p class="eyebrow">{{research-eyebrow}}</p>
-      <h2 id="research-h">{{research-h2}}</h2>
-      <p class="teaser__line">{{research-line}}</p>
-
-      <ol class="method-list">
-        <li>{{research-1}}</li>
-        <li>{{research-2}}</li>
-        <li>{{research-3}}</li>
-      </ol>
+      <div class="proof-grid proof-grid--single">
+        <proof-shot src="/images/proof/prospect-sheet.webp" width="1600" height="682"
+          chrome="docs.google.com/spreadsheets"
+          alt="{{prospect-shot-alt}}"
+          caption="{{prospect-shot-caption}}"></proof-shot>
+      </div>
     </div>
   </section>
 
@@ -274,6 +210,12 @@
         </table>
       </div>
 
+      <div class="buyers">
+        <h3 class="case-h3">{{research-h2}}</h3>
+        <p class="case-text">{{research-line}}</p>
+        <p class="case-note">{{research-1}}</p>
+      </div>
+
       <div class="teaser__visual">
         <laptop-mockup
           video="/videos/worku-homepage-restructure.mp4"
@@ -299,6 +241,8 @@
       <h2 id="linkedin-h">{{linkedin-h2}}</h2>
       <p class="teaser__line">{{linkedin-line}}</p>
 
+      <p class="case-text">{{li-formats}}</p>
+
       <ol class="method-list">
         <li>{{li-start-from-a-real-problem}}</li>
         <li>{{li-show-the-product-in-use}}</li>
@@ -310,6 +254,14 @@
         <p class="figure">{{p-9-posts-published-february-to}}</p>
         <p class="figure">{{p-4-content-pillars}}</p>
         <p class="figure">{{p-0-paid-promotion-organic-only}}</p>
+        <p class="figure">{{li-followers-fig}}</p>
+      </div>
+
+      <div class="proof-grid proof-grid--single">
+        <proof-shot src="/images/proof/linkedin-company-page-540-followers.webp" width="1003" height="688"
+          chrome="linkedin.com/company/worku"
+          alt="{{li-followers-alt}}"
+          caption="{{li-followers-caption}}"></proof-shot>
       </div>
 
       <div class="proof-grid proof-grid--three">
@@ -334,12 +286,9 @@
     <div class="wrap">
       <p class="eyebrow">{{lessons-eyebrow}}</p>
       <h2 id="lessons-h">{{lessons-h2}}</h2>
-      <ol class="method-list">
-        <li>{{lessons-1}}</li>
-        <li>{{lessons-2}}</li>
-        <li>{{lessons-3}}</li>
-        <li>{{lessons-4}}</li>
-      </ol>
+      <div class="chips chips--wrap">
+        <span>{{lessons-1}}</span><span>{{lessons-2}}</span><span>{{lessons-3}}</span><span>{{lessons-4}}</span>
+      </div>
 
       <!-- 9 — Limits -->
       <div class="limits">
@@ -347,7 +296,6 @@
         <h3>{{limits-h3}}</h3>
         <ul>
           <li>{{limits-1}}</li>
-          <li>{{limits-2}}</li>
         </ul>
       </div>
 
