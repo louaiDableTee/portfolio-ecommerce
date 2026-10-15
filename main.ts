@@ -507,7 +507,50 @@ function initHashLanding() {
   window.addEventListener('hashchange', () => landOnHash());
 }
 
+/* ------------------------------------------------------------------ *
+ * Hero clip: a muted looping preview of the store
+ *
+ * No autoplay attribute in the HTML: CSS cannot stop an autoplaying video
+ * for prefers-reduced-motion, so it is started here, only when motion is
+ * welcome. Otherwise the poster simply stays. It pauses off-screen, and the
+ * pause button satisfies the "no moving content without a stop" rule.
+ * ------------------------------------------------------------------ */
+
+function initHeroClip() {
+  const box = document.querySelector<HTMLElement>('[data-hero-clip]');
+  const video = box?.querySelector<HTMLVideoElement>('video');
+  const btn = box?.querySelector<HTMLButtonElement>('.hero-media__toggle');
+  if (!box || !video || !btn) return;
+  if (window.matchMedia?.('(prefers-reduced-motion: reduce)').matches) return;
+
+  const label = (paused: boolean) => (paused ? box.dataset.play : box.dataset.pause) ?? '';
+  const sync = () => {
+    btn.classList.toggle('is-paused', video.paused);
+    btn.setAttribute('aria-label', label(video.paused));
+  };
+  let userPaused = false;
+  btn.hidden = false;
+  btn.addEventListener('click', () => {
+    userPaused = !video.paused;
+    if (video.paused) void video.play().catch(() => {});
+    else video.pause();
+  });
+  video.addEventListener('play', sync);
+  video.addEventListener('pause', sync);
+
+  const io = new IntersectionObserver(
+    ([e]) => {
+      if (e.isIntersecting && !userPaused) void video.play().catch(() => {});
+      else video.pause();
+    },
+    { threshold: 0.25 },
+  );
+  io.observe(box);
+  sync();
+}
+
 initLightbox();
 initNav();
 initReveal();
 initHashLanding();
+initHeroClip();
