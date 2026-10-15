@@ -9,104 +9,85 @@ Les numéros de ligne correspondent à la version de ce commit ; si les fichiers
 ## Images produits
 
 - [x] Photos libres de droits (Unsplash, Pexels) pour les 20 produits
-  - `/espace-deals/` (`s5-pages-2`) → [fr.json:227](content/fr.json#L227) · [en.json:227](content/en.json#L227)
-  - `/espace-deals/` (`demo-p`) → [fr.json:132](content/fr.json#L132) · [en.json:132](content/en.json#L132)
+  - `/espace-deals/` (`s5-badge-2`) → [fr.json:260](content/fr.json#L260) · [en.json:260](content/en.json#L260)
+  - `/espace-deals/` (`demo-p`) → [fr.json:111](content/fr.json#L111) · [en.json:111](content/en.json#L111)
 - [x] Texte alternatif écrit pour chaque image
-  - `/espace-deals/` (`s5-pages-3`) → [fr.json:228](content/fr.json#L228) · [en.json:228](content/en.json#L228)
+  - `/espace-deals/` (`s5-badge-3`) → [fr.json:261](content/fr.json#L261) · [en.json:261](content/en.json#L261)
 
 ## Accueil et en-tête de la boutique en français
 
 - [x] Hero, catégories et produits mis en avant
-  - `/espace-deals/` (`s6-site-1`) → [fr.json:247](content/fr.json#L247) · [en.json:247](content/en.json#L247)
-  - `/` (`case-shot-caption`) → [fr.json:54](content/fr.json#L54) · [en.json:54](content/en.json#L54)
-  - `/espace-deals/` (`s8-shot-home-caption`) → [fr.json:271](content/fr.json#L271) · [en.json:271](content/en.json#L271)
+  - `/espace-deals/` (`s6-chip-1`) → [fr.json:270](content/fr.json#L270) · [en.json:270](content/en.json#L270)
+  - `/espace-deals/` (`s8-shot-home-caption`) → [fr.json:196](content/fr.json#L196) · [en.json:196](content/en.json#L196)
 - [x] Barre de réassurance : paiement à la livraison, livraison 7 DT / gratuite dès 150 DT, retours
-  - `/espace-deals/` (`s6-site-1`) → [fr.json:247](content/fr.json#L247) · [en.json:247](content/en.json#L247)
-  - `/` (`case-shot-caption`) → [fr.json:54](content/fr.json#L54) · [en.json:54](content/en.json#L54)
-  - `/espace-deals/` (`s8-shot-home-caption`) → [fr.json:271](content/fr.json#L271) · [en.json:271](content/en.json#L271)
+  - `/espace-deals/` (`s6-chip-1`) → [fr.json:270](content/fr.json#L270) · [en.json:270](content/en.json#L270)
+  - `/espace-deals/` (`s8-shot-home-caption`) → [fr.json:196](content/fr.json#L196) · [en.json:196](content/en.json#L196)
 - [x] Mon propre logo (lien Facebook retiré du site)
-  - `/espace-deals/` (`s6-site-1`) → [fr.json:247](content/fr.json#L247) · [en.json:247](content/en.json#L247)
+  - `/espace-deals/` (`s6-chip-1`) → [fr.json:270](content/fr.json#L270) · [en.json:270](content/en.json#L270)
 
 ## SEO on-page avec Rank Math
 
 - [x] Title et meta description pour l’accueil, les 5 catégories et les 20 fiches produits, écrits depuis la sheet
-  - `/espace-deals/` (`s5-seo-1`) → [fr.json:230](content/fr.json#L230) · [en.json:230](content/en.json#L230)
-  - `/espace-deals/` (`s5-line`) → [fr.json:224](content/fr.json#L224) · [en.json:224](content/en.json#L224)
-  - `/` (`case-step-4`) → [fr.json:58](content/fr.json#L58) · [en.json:58](content/en.json#L58)
-  - `/espace-deals/` (`s5-shot-rankmath-caption`) → [fr.json:236](content/fr.json#L236) · [en.json:236](content/en.json#L236)
+  - `/espace-deals/` (`s5-chip-1`) → [fr.json:262](content/fr.json#L262) · [en.json:262](content/en.json#L262)
+  - `/espace-deals/` (`s5-line`) → [fr.json:164](content/fr.json#L164) · [en.json:164](content/en.json#L164)
+  - `/espace-deals/` (`s5-shot-rankmath-caption`) → [fr.json:168](content/fr.json#L168) · [en.json:168](content/en.json#L168)
 - [x] Un texte d’introduction pour chaque catégorie
-  - `/espace-deals/` (`s5-seo-2`) → [fr.json:231](content/fr.json#L231) · [en.json:231](content/en.json#L231)
-  - `/espace-deals/` (`s8-shot-cat-caption`) → [fr.json:273](content/fr.json#L273) · [en.json:273](content/en.json#L273)
+  - `/espace-deals/` (`s5-chip-2`) → [fr.json:263](content/fr.json#L263) · [en.json:263](content/en.json#L263)
+  - `/espace-deals/` (`s8-shot-cat-caption`) → [fr.json:198](content/fr.json#L198) · [en.json:198](content/en.json#L198)
 - [x] H1 et H2 propres sur chaque page
-  - `/espace-deals/` (`s5-seo-3`) → [fr.json:232](content/fr.json#L232) · [en.json:232](content/en.json#L232)
+  - `/espace-deals/` (`s5-chip-3`) → [fr.json:264](content/fr.json#L264) · [en.json:264](content/en.json#L264)
 - [x] Maillage interne catégories ↔ produits ↔ guide
-  - `/espace-deals/` (`s5-seo-4`) → [fr.json:233](content/fr.json#L233) · [en.json:233](content/en.json#L233)
-  - `/espace-deals/` (`s5-line`) → [fr.json:224](content/fr.json#L224) · [en.json:224](content/en.json#L224)
+  - `/espace-deals/` (`s5-chip-4`) → [fr.json:265](content/fr.json#L265) · [en.json:265](content/en.json#L265)
+  - `/espace-deals/` (`s5-line`) → [fr.json:164](content/fr.json#L164) · [en.json:164](content/en.json#L164)
 - [x] Fil d’Ariane et sitemap XML
-  - `/espace-deals/` (`s5-seo-4`) → [fr.json:233](content/fr.json#L233) · [en.json:233](content/en.json#L233)
+  - `/espace-deals/` (`s5-chip-4`) → [fr.json:265](content/fr.json#L265) · [en.json:265](content/en.json#L265)
 - [x] Rank Math cité dans la liste d’outils
-  - `/` (`tools-tags`) → [fr.json:82](content/fr.json#L82) · [en.json:82](content/en.json#L82)
-  - `/about/` (`skills-tools-tags`) → [fr.json:622](content/fr.json#L622) · [en.json:622](content/en.json#L622)
-  - `/espace-deals/` (`fact-stack-dd`) → [fr.json:128](content/fr.json#L128) · [en.json:128](content/en.json#L128)
+  - `/espace-deals/` (`fact-stack-dd`) → [fr.json:107](content/fr.json#L107) · [en.json:107](content/en.json#L107)
 
 ## Données structurées
 
 - [x] Schéma Product / Offer (JSON-LD) sur les fiches produits, validé dans le test des résultats enrichis
-  - `/espace-deals/` (`s5-seo-5`) → [fr.json:234](content/fr.json#L234) · [en.json:234](content/en.json#L234)
-  - `/espace-deals/` (`s5-shot-rich-caption`) → [fr.json:238](content/fr.json#L238) · [en.json:238](content/en.json#L238)
-  - `/` (`case-step-4`) → [fr.json:58](content/fr.json#L58) · [en.json:58](content/en.json#L58)
-  - `/` (`skill-3-p`) → [fr.json:75](content/fr.json#L75) · [en.json:75](content/en.json#L75)
+  - `/espace-deals/` (`s5-chip-5`) → [fr.json:266](content/fr.json#L266) · [en.json:266](content/en.json#L266)
+  - `/espace-deals/` (`s5-shot-rich-caption`) → [fr.json:170](content/fr.json#L170) · [en.json:170](content/en.json#L170)
 
 ## Suivi GA4 + Google Tag Manager (GTM4WP)
 
 - [x] Événements view_item_list, view_item, add_to_cart, begin_checkout, purchase (aussi en dur dans `templates/espace-deals.html`, bloc `.funnel`)
-  - `/espace-deals/` (`s7-line`) → [fr.json:257](content/fr.json#L257) · [en.json:257](content/en.json#L257)
-  - `/espace-deals/` (`s7-shot-ga4-caption`) → [fr.json:266](content/fr.json#L266) · [en.json:266](content/en.json#L266)
-  - `/` (`case-step-6`) → [fr.json:60](content/fr.json#L60) · [en.json:60](content/en.json#L60)
-  - `/` (`skill-4-p`) → [fr.json:79](content/fr.json#L79) · [en.json:79](content/en.json#L79)
-  - `/about/` (`skills-ecom-6`) → [fr.json:620](content/fr.json#L620) · [en.json:620](content/en.json#L620)
+  - `/espace-deals/` (`s7-line`) → [fr.json:182](content/fr.json#L182) · [en.json:182](content/en.json#L182)
+  - `/espace-deals/` (`s7-shot-ga4-caption`) → [fr.json:191](content/fr.json#L191) · [en.json:191](content/en.json#L191)
 - [x] Vérifiés dans l’Aperçu GTM et GA4 DebugView
-  - `/espace-deals/` (`s7-checked`) → [fr.json:264](content/fr.json#L264) · [en.json:264](content/en.json#L264)
+  - `/espace-deals/` (`s7-checked`) → [fr.json:189](content/fr.json#L189) · [en.json:189](content/en.json#L189)
 - [x] GTM4WP / GA4 cités dans les outils
-  - `/` (`tools-tags`) → [fr.json:82](content/fr.json#L82) · [en.json:82](content/en.json#L82)
-  - `/about/` (`skills-tools-tags`) → [fr.json:622](content/fr.json#L622) · [en.json:622](content/en.json#L622)
   - `/` (`hero-pills`) → [fr.json:42](content/fr.json#L42) · [en.json:42](content/en.json#L42)
 
 ## Test
 
 - [x] Commande test complète avec paiement à la livraison, de la fiche produit à la confirmation
-  - `/espace-deals/` (`s6-site-4`) → [fr.json:250](content/fr.json#L250) · [en.json:250](content/en.json#L250)
-  - `/espace-deals/` (`s6-shot-order-caption`) → [fr.json:254](content/fr.json#L254) · [en.json:254](content/en.json#L254)
-  - `/` (`case-step-5`) → [fr.json:59](content/fr.json#L59) · [en.json:59](content/en.json#L59)
+  - `/espace-deals/` (`s6-chip-4`) → [fr.json:273](content/fr.json#L273) · [en.json:273](content/en.json#L273)
+  - `/espace-deals/` (`s6-shot-order-caption`) → [fr.json:179](content/fr.json#L179) · [en.json:179](content/en.json#L179)
 
 ## Démo locale : affirmations alignées (fait le 8 oct. 2026)
 
 - [x] Ligne « Boutique / espacedeals.com [À COMPLÉTER : lien] » retirée de la fiche d’infos
-  - `/espace-deals/` (`fact-period-dd`) → [fr.json:124](content/fr.json#L124) · [en.json:124](content/en.json#L124)
+  - `/espace-deals/` (`fact-period-dd`) → [fr.json:103](content/fr.json#L103) · [en.json:103](content/en.json#L103)
 - [x] « Mise en ligne prévue » au lieu de « puis mise en ligne »
-  - `/espace-deals/` (`s1-build-1`) → [fr.json:159](content/fr.json#L159) · [en.json:159](content/en.json#L159)
 - [x] « 26 pages au plan » (le guide n’est plus marqué « prévu » depuis le 9 oct.)
-  - `/` (`case-fig-pages`) → [fr.json:51](content/fr.json#L51) · [en.json:51](content/en.json#L51)
-  - `/` (`case-step-2`) → [fr.json:56](content/fr.json#L56) · [en.json:56](content/en.json#L56)
-  - `/espace-deals/` (`s3-h2`) → [fr.json:182](content/fr.json#L182) · [en.json:182](content/en.json#L182)
-  - `/espace-deals/` (`s3-line`) → [fr.json:183](content/fr.json#L183) · [en.json:183](content/en.json#L183)
-  - `/espace-deals/` (`s3-fig-guide`) → [fr.json:186](content/fr.json#L186) · [en.json:186](content/en.json#L186)
-  - `/espace-deals/` (`s3-tree-guide`) → [fr.json:196](content/fr.json#L196) · [en.json:196](content/en.json#L196)
+  - `/` (`case-fig-pages`) → [fr.json:50](content/fr.json#L50) · [en.json:50](content/en.json#L50)
+  - `/espace-deals/` (`s3-h2`) → [fr.json:140](content/fr.json#L140) · [en.json:140](content/en.json#L140)
+  - `/espace-deals/` (`s3-line`) → [fr.json:141](content/fr.json#L141) · [en.json:141](content/en.json#L141)
+  - `/espace-deals/` (`s3-fig-guide`) → [fr.json:144](content/fr.json#L144) · [en.json:144](content/en.json#L144)
+  - `/espace-deals/` (`s3-tree-guide`) → [fr.json:154](content/fr.json#L154) · [en.json:154](content/en.json#L154)
 - [x] Politique de confidentialité et lien Facebook retirés de la section 06
-  - `/espace-deals/` (`s6-site-1`) → [fr.json:247](content/fr.json#L247) · [en.json:247](content/en.json#L247)
-  - `/espace-deals/` (`s6-site-2`) → [fr.json:248](content/fr.json#L248) · [en.json:248](content/en.json#L248)
+  - `/espace-deals/` (`s6-chip-1`) → [fr.json:270](content/fr.json#L270) · [en.json:270](content/en.json#L270)
+  - `/espace-deals/` (`s6-chip-2`) → [fr.json:271](content/fr.json#L271) · [en.json:271](content/en.json#L271)
 - [x] Paragraphes Search Console et Meta retirés de la section 07, captures 10 et 12 retirées de la page
-  - `/espace-deals/` (`s7-checked`) → [fr.json:264](content/fr.json#L264) · [en.json:264](content/en.json#L264)
-  - `/espace-deals/` (`toc-7`) → [fr.json:146](content/fr.json#L146) · [en.json:146](content/en.json#L146)
+  - `/espace-deals/` (`s7-checked`) → [fr.json:189](content/fr.json#L189) · [en.json:189](content/en.json#L189)
+  - `/espace-deals/` (`toc-7`) → [fr.json:119](content/fr.json#L119) · [en.json:119](content/en.json#L119)
 - [x] Search Console et Meta for WooCommerce présentés comme étapes suivantes
-  - `/espace-deals/` (`s9-next-1`) → [fr.json:285](content/fr.json#L285) · [en.json:285](content/en.json#L285)
-  - `/espace-deals/` (`s9-next-2`) → [fr.json:286](content/fr.json#L286) · [en.json:286](content/en.json#L286)
+  - `/espace-deals/` (`s9-next-1`) → [fr.json:209](content/fr.json#L209) · [en.json:209](content/en.json#L209)
+  - `/espace-deals/` (`s9-next-2`) → [fr.json:210](content/fr.json#L210) · [en.json:210](content/en.json#L210)
 - [x] Suivi sur l’accueil : GA4 via GTM, vérifié dans DebugView ; Search Console rattaché à Worku
-  - `/` (`case-step-6`) → [fr.json:60](content/fr.json#L60) · [en.json:60](content/en.json#L60)
-  - `/` (`skill-4-p`) → [fr.json:79](content/fr.json#L79) · [en.json:79](content/en.json#L79)
 - [x] Outils : Search Console et Meta for WooCommerce retirés des outils Espace Deals
-  - `/` (`tools-tags`) → [fr.json:82](content/fr.json#L82) · [en.json:82](content/en.json#L82)
-  - `/about/` (`skills-tools-tags`) → [fr.json:622](content/fr.json#L622) · [en.json:622](content/en.json#L622)
 
 ## Captures d’écran
 
@@ -118,15 +99,15 @@ Les numéros de ligne correspondent à la version de ce commit ; si les fichiers
 
 À confirmer avant publication : chaque affirmation doit pouvoir s’expliquer en entretien.
 
-- [ ] `/worku/` : fichier Google Sheets de plus de 200 prospects, avec les colonnes listées (type, spécialité, actif sur LinkedIn, score, statut, prochaine action, notes). Aucune capture, aucun nom : le tableau affiché est un exemple fictif.
+- [ ] `/worku/` : fichier Google Sheets de plus de 200 prospects. La capture réelle `public/images/proof/prospect-sheet.webp` remplace l’ancien tableau fictif ; noms et liens floutés (à revérifier avant publication).
 - [ ] `/worku/` : enrichissement des contacts avec Worku, FullEnrich, Prospeo et ContactOut ; messages et relances rédigés par moi.
 - [ ] `/worku/` : phrase « maquettes et code produits avec Claude Code et Claude Design sous ma direction ; chaque changement vérifié avant mise en ligne ».
 - [ ] `/worku/` : environ 9 posts LinkedIn entre février et juillet 2026, en organique uniquement ; les 3 captures de posts sont publiables.
 - [ ] `/worku/` et `/ux-ui/` : les captures « live » de worku.tn (accueil, recrutement, prospection commerciale) correspondent encore au site en ligne.
-- [x] Aucun chiffre d’abonnés, de trafic ou de conversion ; pas de capture d’abonnés ; bloc « calendrier » retiré.
+- [x] Aucune hausse de trafic ou de conversion revendiquée ; bloc « calendrier » retiré. Depuis le 15 oct. : « 50 → 540 abonnés, en organique » et la capture `linkedin-company-page-540-followers.webp` sont sur `/worku/` (chiffre confirmé par l’auteur).
 - [x] Puces techniques retirées de l’accueil et de À propos (robots.txt, redirections 301, types JSON-LD) ; capture Schema Markup Validator retirée.
 - [x] Section « Design system » retirée de `/ux-ui/` ; bloc TANIT WEB retiré.
-- [x] « Excel » ajouté aux outils (À propos).
+- [x] « Excel » ajouté aux outils (À propos) ; retiré de la liste le 15 oct. (la rangée de logos de l’accueil et de À propos ne le contient pas).
 
 ## Ajouts du 9 oct. 2026
 
@@ -139,25 +120,34 @@ Les numéros de ligne correspondent à la version de ce commit ; si les fichiers
 
 ## Ajouts du 10 oct. 2026
 
-- [x] Accueil : nouvelle intro (« J’ai construit et configuré une boutique WooCommerce complète… ») et 8 étiquettes du hero ; « SEO on-page », « Données structurées » et « Google Search Console » retirés du hero seulement.
+- [x] Accueil : une ligne d’intro et 5 étiquettes dans le hero (version du 15 oct.).
 - [x] À propos : « faire tourner une boutique » remplacé par « une boutique WooCommerce complète, construite et configurée de A à Z ». Plus aucune occurrence de « faire tourner » / « run a store ».
-- [x] Étude de cas : encadré « En 30 secondes » sous l’avis « Boutique de démonstration », 5 liens vers les sections.
-- [ ] Section 07 : 4 modèles de messages clients (confirmation, retard, client injoignable, retour) — à confirmer : rédigés par moi pour la boutique de démonstration.
+- [x] Étude de cas : l’encadré « En 30 secondes » a été retiré le 15 oct. (la vidéo est dans le hero).
+- [ ] Section 08 : 4 modèles de messages clients (confirmation, retard, client injoignable, retour) — à confirmer : rédigés par moi pour la boutique de démonstration.
 - [x] Contact : adresse e-mail visible dans le bloc bleu (lien mailto) ; déjà visible dans le pied de page de toutes les pages.
 
 ## Ajouts du 11 oct. 2026
 
-- [x] Vidéo du parcours de commande (boutique de démonstration) en haut de l’étude de cas, section « Démo vidéo » : `espace-deals-parcours.mp4` (2,3 Mo, 1 min 14, sans son) et son poster ; lien de retour depuis la section 07.
+- [x] Vidéo du parcours de commande (boutique de démonstration) dans le hero de l’étude de cas (`id="demo-video"`) : `espace-deals-parcours.mp4` (2,3 Mo, 1 min 14, sans son) et son poster ; lien de retour depuis la section 08.
 - [ ] Vérifier la lecture de la vidéo sur la preview Vercel, sur ordinateur et sur téléphone.
 
-## Revue recruteur (branche revue-recruteur)
+## Passe « visual-first » du 15 oct. 2026
 
-- [x] CV retiré du site (liens, boutons, PDF) ; mention « CV envoyé sur demande » sous les coordonnées.
-- [x] Libellés des captures : `espacedeals.local` (boutique locale, domaine non détenu).
-- [x] Bouton « Voir la démo vidéo (1 min) » dans le hero de l’accueil.
+À relire sur la preview avant fusion :
+
+- [ ] Accueil : le clip du hero est un extrait de `espace-deals-parcours.mp4` (WebM + MP4, sans son, boucle, arrêt avec « réduire les animations »). Le portrait est passé dans le hero de À propos.
+- [ ] Accueil : la rangée de logos (WordPress, WooCommerce, Kadence, LocalWP, Rank Math, Google Sheets, Google Tag Manager, Google Analytics 4) correspond aux outils réellement utilisés.
+- [ ] Accueil : la carte UX/UI montre des écrans FrostPeak et renvoie vers `/frostpeak/`.
+- [ ] Étude de cas : chronologie de commande limitée aux statuts visibles sur la capture 14 (commande reçue, confirmée par téléphone, livrée et payée, Terminée, retour accepté, remboursée et remise en stock).
+- [ ] Étude de cas : « La boutique, côté client » est maintenant la section 01 ; sections renumérotées ; menu latéral fixe seulement à partir de 1440 px.
+- [ ] Étude de cas : annotations de la fiche produit (fil d’Ariane, H1, prix en DT, description courte) bien placées sur `03-fiche-produit.webp`.
+- [ ] Worku : « vidéos, carrousels et formats variés réalisés avec Canva et Claude Design » et « 50 → 540 abonnés, en organique » (confirmés par l’auteur). Section « Deux acheteurs » fusionnée dans le bloc avant/après.
+- [ ] À propos : titre de l’onglet « À propos : parcours et formation » (sans « CV »), EN « About: career and education ».
 
 ## À faire
 
+- [ ] Nouveau CV en français (`public/cv/Mohamed-Louai-Bouraoui-CV-FR.pdf`) : l’actuel présente encore un profil Worku / B2B.
+- [ ] CV en anglais : ajouter le PDF dans `public/cv/`, puis le mettre en premier dans la liste anglaise de `vite.config.ts` (en attendant, les pages anglaises pointent vers le CV français).
 - [ ] Page Politique de confidentialité de la boutique.
 - [ ] Quand la boutique sera en ligne : captures `10-search-console` et `12-catalogue-meta`, les remettre dans la section 07 avec leur texte.
 
