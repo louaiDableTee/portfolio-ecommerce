@@ -1485,3 +1485,9 @@ footer{border-top:1px solid var(--line);padding:56px 0 26px;color:var(--muted);f
 .buyers{margin-top:34px;max-width:760px}
 .buyers .case-h3{margin-top:0}
 .teaser h2 + .chips--wrap{margin-top:22px}
+
+/* About: portrait in the hero */
+.hero-split--portrait{grid-template-columns:minmax(0,1.5fr) minmax(220px,.7fr)}
+.about-portrait{margin:0;justify-self:center;width:min(100%,320px);border-radius:30px;background:#fff;border:1px solid var(--line);padding:12px;box-shadow:var(--shadow)}
+.about-portrait img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 32%;border-radius:20px}
+@media(max-width:900px){.hero-split--portrait{grid-template-columns:1fr}.about-portrait{justify-self:start;width:min(100%,260px)}}
