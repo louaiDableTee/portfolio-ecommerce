@@ -1329,8 +1329,6 @@ footer{border-top:1px solid var(--line);padding:56px 0 26px;color:var(--muted);f
 
 /* Hero: the store in motion replaces the portrait; a small status badge. */
 .hero--long .hero-grid{grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:48px;align-items:start}
-.hero-badge{display:inline-flex;align-items:center;gap:8px;margin:0 0 16px !important;padding:6px 12px;border:1px solid #cfe9db;background:#eefaf3;color:#17653f;border-radius:999px;font-size:13px !important;font-weight:650;line-height:1.3}
-.hero-badge__dot{width:8px;height:8px;border-radius:50%;background:#168a55;flex:none}
 .hero-media{position:relative;margin:0;border:1px solid #dfe3ea;border-radius:16px;overflow:hidden;background:#f6f7fa;box-shadow:0 22px 48px rgba(20,31,60,.14)}
 .hero-media .browser-bar{border-bottom:1px solid #e6e9ef}
 .hero-media video{display:block;width:100%;height:auto;aspect-ratio:960/414;background:#fff;object-fit:cover}
