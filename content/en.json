@@ -85,7 +85,8 @@
     "exp-line": "Digital Marketing Officer and co-founder · 2025–26",
     "exp-chip-1": "On-page SEO",
     "exp-chip-2": "LinkedIn content",
-    "exp-chip-3": "Client prospecting"
+    "exp-chip-3": "Client prospecting",
+    "hero-phone-alt": "The Espace Deals home page on a phone: the “Boutique de démonstration” banner and the heading “Articles de cuisine à petits prix en Tunisie”."
   },
   "espace-deals": {
     "meta-title": "Espace Deals: WooCommerce e-commerce case study",
@@ -287,7 +288,17 @@
     "s6-checkout-alt": "The Espace Deals checkout on mobile: the heading “Validation de la commande” and the billing details form, with Tunisia selected as the country.",
     "s6-checkout-caption": "The mobile checkout: billing details, delivery in Tunisia.",
     "orders-list-alt": "The orders list in WooCommerce: two test orders, no. 1286 and no. 1285, dated 11 October 2026, both with the status Completed, with their total in DT.",
-    "orders-list-caption": "The test orders in WooCommerce, with their statuses."
+    "orders-list-caption": "The test orders in WooCommerce, with their statuses.",
+    "s8-mobile-h3": "The same store on a phone",
+    "s8-mobile-line": "The same pages on a phone screen: home, category, product page and cart.",
+    "s8-phone-home-alt": "The Espace Deals home page on mobile: the banner “Boutique de démonstration : les commandes ne sont pas traitées”, the heading “Articles de cuisine à petits prix en Tunisie”, two buttons and the reassurance bar with cash on delivery, 7 DT delivery and returns within 7 days.",
+    "s8-phone-home-caption": "Home: the demo banner, the headline and the reassurance bar.",
+    "s8-phone-cat-alt": "The Cuisine category page on mobile: the breadcrumb, an intro text, “Affichage de 1–16 sur 20 résultats”, the default sorting and two products with their price in DT.",
+    "s8-phone-cat-caption": "Cuisine category: 1–16 of 20 results, sorting and prices in DT.",
+    "s8-phone-product-alt": "The “Coupe-légumes manuel à panier” product page on mobile: the breadcrumb, the product photo, the price 29,900 DT with 7 DT delivery, and the specifications.",
+    "s8-phone-product-caption": "Product page: price in DT, delivery and specifications.",
+    "s8-phone-cart-alt": "The cart on mobile: one “coupe-légumes manuel à panier” at 29,900 DT, home delivery at 7,000 DT and a total of 36,900 DT.",
+    "s8-phone-cart-caption": "Cart: subtotal, home delivery and total."
   },
   "worku": {
     "meta-title": "Worku: launching and repositioning a B2B product",

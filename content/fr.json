@@ -85,7 +85,8 @@
     "exp-line": "Chargé de Marketing Digital et cofondateur · 2025–26",
     "exp-chip-1": "SEO on-page",
     "exp-chip-2": "Contenu LinkedIn",
-    "exp-chip-3": "Prospection clients"
+    "exp-chip-3": "Prospection clients",
+    "hero-phone-alt": "L’accueil d’Espace Deals sur un téléphone : le bandeau « Boutique de démonstration » et le titre « Articles de cuisine à petits prix en Tunisie »."
   },
   "espace-deals": {
     "meta-title": "Espace Deals : étude de cas e-commerce WooCommerce",
@@ -287,7 +288,17 @@
     "s6-checkout-alt": "Le tunnel de commande d’Espace Deals sur mobile : le titre « Validation de la commande » et le formulaire de détails de facturation, avec la Tunisie sélectionnée comme pays.",
     "s6-checkout-caption": "Le tunnel de commande sur mobile : détails de facturation, livraison en Tunisie.",
     "orders-list-alt": "La liste des commandes dans WooCommerce : deux commandes test, n° 1286 et n° 1285, datées du 11 octobre 2026, toutes deux à l’état Terminée, avec leur total en DT.",
-    "orders-list-caption": "Les commandes test dans WooCommerce, avec leurs statuts."
+    "orders-list-caption": "Les commandes test dans WooCommerce, avec leurs statuts.",
+    "s8-mobile-h3": "La même boutique sur mobile",
+    "s8-mobile-line": "Les mêmes pages sur un écran de téléphone : accueil, catégorie, fiche produit et panier.",
+    "s8-phone-home-alt": "L’accueil d’Espace Deals sur mobile : le bandeau « Boutique de démonstration : les commandes ne sont pas traitées », le titre « Articles de cuisine à petits prix en Tunisie », deux boutons et la barre de réassurance paiement à la livraison, livraison 7 DT, retour sous 7 jours.",
+    "s8-phone-home-caption": "Accueil : le bandeau de démonstration, le titre et la barre de réassurance.",
+    "s8-phone-cat-alt": "La page catégorie Cuisine sur mobile : le fil d’Ariane, un texte d’introduction, « Affichage de 1–16 sur 20 résultats », le tri par défaut et deux produits avec leur prix en DT.",
+    "s8-phone-cat-caption": "Catégorie Cuisine : 1–16 sur 20 résultats, tri et prix en DT.",
+    "s8-phone-product-alt": "La fiche « Coupe-légumes manuel à panier » sur mobile : le fil d’Ariane, la photo du produit, le prix 29,900 DT avec la livraison à 7 DT, et les caractéristiques.",
+    "s8-phone-product-caption": "Fiche produit : prix en DT, livraison et caractéristiques.",
+    "s8-phone-cart-alt": "Le panier sur mobile : un coupe-légumes manuel à panier à 29,900 DT, la livraison à domicile à 7,000 DT et un total de 36,900 DT.",
+    "s8-phone-cart-caption": "Panier : sous-total, livraison à domicile et total."
   },
   "worku": {
     "meta-title": "Worku : lancer et repositionner un produit B2B",
