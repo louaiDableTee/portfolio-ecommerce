@@ -1524,3 +1524,19 @@ footer{border-top:1px solid var(--line);padding:56px 0 26px;color:var(--muted);f
   .career-thumb{width:min(100%,260px)}
 }
 @media(max-width:700px){.sitemap__root:after{display:none}.sitemap__root{padding-bottom:16px;justify-content:flex-start}}
+
+/* ===== Round 2: the mobile checkout beside the payment badges ===== */
+.badges-with-shot{
+  display:grid;grid-template-columns:minmax(0,1fr) minmax(0,208px);
+  gap:clamp(22px,3.4vw,44px);align-items:start;margin-bottom:30px;
+}
+.badges-with-shot .badges{grid-template-columns:1fr;margin:12px 0 0;gap:12px}
+.badges-with-shot .case-h3{margin-top:26px}
+.badges-shot{width:min(100%,208px);margin:12px 0 0}
+.badges-shot .phone-chassis{--phone-width:100%;--phone-bezel:7px;--phone-radius:28px}
+.badges-shot .proof-caption{font-size:12px;line-height:1.45}
+@media(max-width:800px){
+  .badges-with-shot{grid-template-columns:1fr;gap:4px}
+  .badges-with-shot .badges{grid-template-columns:1fr}
+  .badges-shot{margin-top:22px}
+}

@@ -281,7 +281,13 @@
     "annot-1": "Fil d’Ariane",
     "annot-2": "H1",
     "annot-3": "Prix en DT",
-    "annot-4": "Description courte"
+    "annot-4": "Description courte",
+    "s4-sheet-alt": "Le catalogue d’Espace Deals dans Google Sheets : une ligne par produit, avec les colonnes SKU, nom du produit, catégorie, sous-catégorie, matière, contenance ou dimensions, prix régulier, prix promo et stock.",
+    "s4-sheet-caption": "Le catalogue préparé dans Google Sheets avant l’import CSV.",
+    "s6-checkout-alt": "Le tunnel de commande d’Espace Deals sur mobile : le titre « Validation de la commande » et le formulaire de détails de facturation, avec la Tunisie sélectionnée comme pays.",
+    "s6-checkout-caption": "Le tunnel de commande sur mobile : détails de facturation, livraison en Tunisie.",
+    "orders-list-alt": "La liste des commandes dans WooCommerce : deux commandes test, n° 1286 et n° 1285, datées du 11 octobre 2026, toutes deux à l’état Terminée, avec leur total en DT.",
+    "orders-list-caption": "Les commandes test dans WooCommerce, avec leurs statuts."
   },
   "worku": {
     "meta-title": "Worku : lancer et repositionner un produit B2B",

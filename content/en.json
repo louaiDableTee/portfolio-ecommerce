@@ -281,7 +281,13 @@
     "annot-1": "Breadcrumb",
     "annot-2": "H1",
     "annot-3": "Price in DT",
-    "annot-4": "Short description"
+    "annot-4": "Short description",
+    "s4-sheet-alt": "The Espace Deals catalogue in Google Sheets: one row per product, with columns for SKU, product name, category, sub-category, material, capacity or dimensions, regular price, sale price and stock.",
+    "s4-sheet-caption": "The catalogue prepared in Google Sheets before the CSV import.",
+    "s6-checkout-alt": "The Espace Deals checkout on mobile: the heading “Validation de la commande” and the billing details form, with Tunisia selected as the country.",
+    "s6-checkout-caption": "The mobile checkout: billing details, delivery in Tunisia.",
+    "orders-list-alt": "The orders list in WooCommerce: two test orders, no. 1286 and no. 1285, dated 11 October 2026, both with the status Completed, with their total in DT.",
+    "orders-list-caption": "The test orders in WooCommerce, with their statuses."
   },
   "worku": {
     "meta-title": "Worku: launching and repositioning a B2B product",
